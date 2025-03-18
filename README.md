@@ -1,15 +1,15 @@
-# Amigo Secreto
+# Amigo Secreto | Alura
 
-Este é um simples site de **Amigo Secreto** desenvolvido com HTML, CSS e JavaScript. O objetivo é permitir que os usuários insiram os nomes de seus amigos e, em seguida, sorteiem um amigo secreto aleatório entre os participantes.
+Amigo Secreto é um projeto simples que permite realizar o sorteio de um amigo secreto entre os participantes. Desenvolvido com HTML, CSS e JavaScript, o objetivo é facilitar a organização de sorteios para amigos, colegas ou familiares, sem precisar de ferramentas externas.
 
-## Funcionalidades
+## 💡 Funcionalidades
 
-1. **Adicionar Amigos**: Permite adicionar amigos à lista de participantes.
-2. **Verificar Nome Vazio**: Garante que o usuário não possa adicionar um nome vazio à lista.
-3. **Listar Amigos**: Exibe a lista de amigos que foram adicionados.
-4. **Sortear Amigo Secreto**: Sorteia aleatoriamente um amigo secreto e exibe o nome sorteado na tela.
+1. **Adicionar Amigos**: Inserir os nomes dos amigos que participarão do sorteio.
+2. **Verificar Nome Vazio**: Garante que o nome inserido não seja vazio ou inválido.
+3. **Listar Amigos**: Exibe todos os participantes que foram adicionados.
+4. **Sortear Amigo Secreto**: Realiza o sorteio de um amigo secreto aleatório e exibe o nome do sorteado na tela.
 
-## Como Usar
+## 🔢 Como Usar
 
 1. **Adicionar Participantes**:
    - Insira o nome de um amigo no campo de texto e clique em "Adicionar".
@@ -20,26 +20,26 @@ Este é um simples site de **Amigo Secreto** desenvolvido com HTML, CSS e JavaSc
    - Após adicionar os amigos, clique em "Sortear Amigo Secreto".
    - O nome de um amigo aleatório será exibido como o amigo secreto sorteado.
 
-## Como Funciona
+## ⚙️ Como Funciona
 
-- **Verificação de Nomes Vazios**: Quando um usuário tenta adicionar um amigo sem preencher o campo de texto, o sistema exibe um alerta pedindo que o campo seja preenchido corretamente.
+- **Adicionar Amigos**: O usuário pode inserir os nomes de amigos no campo de entrada. O sistema valida se o nome não está vazio antes de adicioná-lo à lista.
   
-- **Adição e Listagem**: Os nomes dos amigos são armazenados em uma lista interna (array) e são atualizados em tempo real na interface do usuário.
+- **Listar Amigos**: Os nomes dos amigos são armazenados em uma lista interna (array) e são atualizados em tempo real na interface do usuário.
 
-- **Sorteio Aleatório**: O sorteio é feito de maneira simples utilizando a função `Math.random()` para selecionar um amigo aleatoriamente da lista.
+- **Sorteio Aleatório**: Todos os amigos adicionados são listados na interface, para que o usuário possa ver quem está participando do sorteio.
 
-## Tecnologias Usadas
+## 🛠️ Tecnologias Utilizadas
 
-- **HTML**: Para a estrutura da página web.
-- **CSS**: Para estilização da página (não mostrado no código, mas pode ser adicionado facilmente).
-- **JavaScript**: Para implementar a lógica de adicionar amigos e realizar o sorteio.
+- **HTML**: Para estruturar a página da web.
+- **CSS**: Para estilizar e tornar a página mais visualmente atraente.
+- **JavaScript**: Para a lógica de adicionar participantes, validar entradas e realizar o sorteio aleatório.
 
-## Como Rodar
+## 🔥 Como Rodar
 
-1. Acesse o deploy em: https://roaring90s.github.io/amigoSecreto/
+1. Acesse o deploy em: https://github.com/kabprovince/amigoSecreto.git
 2. Insira os nomes dos seus amigos e clique em "Adicionar".
 3. Clique em "Sortear Amigo Secreto" para realizar o sorteio.
 
-## Contribuição
+## 💬 Contribuições
 
 Sinta-se à vontade para contribuir com melhorias, correções ou novas funcionalidades. Basta fazer um fork deste repositório, realizar suas alterações e enviar um pull request.
