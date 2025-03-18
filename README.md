@@ -36,7 +36,7 @@ Amigo Secreto é um projeto simples que permite realizar o sorteio de um amigo s
 
 ## 🔥 Como Rodar
 
-1. Acesse o deploy em: https://github.com/kabprovince/amigoSecreto.git
+1. Acesse o deploy em: https://github.com/kabprovince/amigoSecreto
 2. Insira os nomes dos seus amigos e clique em "Adicionar".
 3. Clique em "Sortear Amigo Secreto" para realizar o sorteio.
 
